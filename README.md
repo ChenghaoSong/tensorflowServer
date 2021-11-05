@@ -23,7 +23,6 @@ Code repo: https://colab.research.google.com/github/tensorflow/docs/blob/master/
 
 ## Tensorflow server
 command:
-
-"""
+```
 docker run -t --rm -p 8501:8501 -v "./tf_model:/models/state" -e MODEL_NAME=state tensorflow/serving &
-"""
+```
